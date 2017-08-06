@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="120px"
+        android:layout_height="90px"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/temp" />
+
+    <ImageView
+        android:id="@+id/snapshot"
+        android:layout_width="120px"
+        android:layout_height="90px"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="120px"
+        android:layout_height="90px"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="输入1"
+        />
+
+</FrameLayout>
