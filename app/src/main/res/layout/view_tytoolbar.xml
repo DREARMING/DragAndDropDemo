@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mvcoder.draganddropdemo.TYToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tyToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:fitsSystemWindows="true"
+    android:background="?attr/colorPrimary"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    >
+
+    <TextView
+        android:id="@+id/tyLeftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/back"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/TyLeftTextMarginLeft"
+        android:textColor="@color/white"
+        android:drawablePadding="5dp"
+        android:textSize="@dimen/TyLeftTextSize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tyMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/TyMainTilteTextSize"
+            android:text="MainTitle"
+            />
+
+        <TextView
+            android:id="@+id/tySubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/TySubTilteTextSize"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="SubTitle"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tyRightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/TyRightTextSize"
+        android:layout_gravity="right"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/TyRightTextMarginRight"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="确认"
+        />
+</com.mvcoder.draganddropdemo.TYToolBar>

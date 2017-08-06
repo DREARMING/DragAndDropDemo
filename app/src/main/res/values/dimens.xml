@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TyLeftTextSize">18sp</dimen>
+    <dimen name="TyRightTextSize">18sp</dimen>
+    <dimen name="TyRightTextMarginRight">10dp</dimen>
+    <dimen name="TyLeftTextMarginLeft">10dp</dimen>
+    <dimen name="TyMainTilteTextSize">22sp</dimen>
+    <dimen name="TySubTilteTextSize">16sp</dimen>
+</resources>
